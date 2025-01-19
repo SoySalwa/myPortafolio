@@ -1,0 +1,15 @@
+
+.section-about {
+  position: fixed;
+  background-color: #383838;
+  width: 100%;
+}
+
+.section-about h1 {
+  display: flex;
+  padding: 0.5em;
+  color: white;
+  font-size: 24pt;
+  justify-content: center;
+  align-items: center;
+}

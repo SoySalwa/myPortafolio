@@ -1,0 +1,46 @@
+/* Reinicio de márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: #232323;
+  height: 45px;
+  line-height: 45px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100%;
+}
+
+.ul-type {
+  list-style-type: none;
+  display: flex; 
+}
+
+.links-items {
+  display: inline-block; 
+  margin: 0 15px; 
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px; 
+  display: inline-block;
+  transition: color 0.3s ease; 
+}
+
+.nav-links:hover {
+  color: black;
+}
+
