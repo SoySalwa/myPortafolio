@@ -1,15 +1,87 @@
 
 .section-about {
-  position: fixed;
   background-color: #383838;
   width: 100%;
+  min-height: 30vh;
+  padding: 5% 10%;
+  /* Reduje el padding vertical para mejor equilibrio */
 }
 
 .section-about h1 {
-  display: flex;
-  padding: 0.5em;
   color: white;
-  font-size: 24pt;
-  justify-content: center;
-  align-items: center;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  /* Simplifiqué el h1 eliminando flex innecesario */
+}
+
+.container-about {
+  display: flex;
+  gap: 3rem; /* Añadí espacio entre imagen y texto */
+  width: 100%;
+  max-width: 1200px; /* Limita el ancho máximo */
+  margin: 0 auto; /* Centra el contenedor */
+ /* align-items: flex-start; /* Alinea desde arriba */
+}
+
+.container-about img {
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover; /* Mejora el manejo de imágenes */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Añade profundidad */
+}
+
+.info-about {
+  flex: 1;
+  color: white;
+}
+
+.info-about > h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: #ffffff; /* Añade color accent */
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.info-about h1::after {
+  content: '';
+  position: absolute;
+  margin-top: 2px;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #4a9eff; /* Línea decorativa bajo el h4 */
+}
+
+.info-about p {
+  padding: 0;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  text-align: justify;
+}
+
+/* Añado media query para responsividad */
+@media (max-width: 768px) {
+  .container-about {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .container-about img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+   
+  .info-about h4::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
