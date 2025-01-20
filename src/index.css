@@ -25,7 +25,8 @@ a:hover {
 body {
   display: flex;
   flex-direction: column;
-  margin-top: 45px;
+  margin: 0;
+  padding: 45px 0 0 0; /* Ajuste del padding */
   background: linear-gradient(to right, #292929 65%, #2825ff 50%);
 }
 
@@ -39,22 +40,7 @@ body {
   min-width: 320px;
   min-height: 45vh;
   position: static;
-
   margin-bottom: 2em;
-}
-
-.second-section {
-  margin: 0;
-  background-color: #2825ff;
-  min-width: 600px;
-  min-height: 45vh;
-  position: relative;
-  z-index: 1;
-  padding-right: 2px;
-}
-
-.container {
-  margin: 0.5em;
 }
 
 h4 {
@@ -87,6 +73,24 @@ h1 {
 .btn-cv:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+/* Estilos para la sección "About Me" */
+.about-me-section {
+  padding: 2em; /* Añade padding para evitar solapamiento */
+  background-color: #383838; /* Color de fondo para distinguir la sección */
+}
+
+/* Estilos para la sección "Skills" */
+.services-section {
+  padding: 2em; /* Añade padding para evitar solapamiento */
+  background-color: #292929;
+}
+
+.projects-section {
+  padding: 2em; /* Añade padding para evitar solapamiento */
+  background-color: #383838;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
