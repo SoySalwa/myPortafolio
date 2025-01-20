@@ -1,0 +1,109 @@
+.services {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.services h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 2.5em;
+  color: #ffffff;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.services h1::after {
+  content: '';
+  position: absolute;
+  margin-top: 2px;
+  bottom: 0;
+  left: 0;
+  width: 75px;
+  height: 3px;
+  background-color: #4a9eff;
+}
+
+.services-description {
+  padding-left: 1.4em;
+  text-align: justify;
+  width: 40%;
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2em;
+  padding: 1em;
+}
+
+.service-item {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.image-container {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+
+.text-overlay h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.text-overlay p {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.dkt-development {
+  background-color: blue;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dkt-development img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+  .services-description {
+    width: 100%;
+  }
+}
