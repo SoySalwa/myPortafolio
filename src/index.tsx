@@ -1,8 +1,7 @@
-import React from 'react';
 import Nav from "./Nav.tsx";
 import "./index.css";
-import Services from "./skills.tsx";
-import "./skills.css";
+import Services from "./services.tsx";
+import "./services.css";
 import AboutMe from './aboutme.tsx';
 import MyProjects from "./myprojects.tsx";
 
