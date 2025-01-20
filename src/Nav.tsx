@@ -14,13 +14,13 @@ function MyNav({ image }: imageProfile) {
       <nav id="navigation">
         <ul className="ul-type">
           <li className="links-items">
-            <a className="nav-links" href="#about-me">About me</a>
+            <a className="nav-links" href="#about-me">Sobre mí</a>
           </li>
           <li className="links-items">
-            <a className="nav-links" href="#skills">Skills</a>
+            <a className="nav-links" href="#services">Servicios</a>
           </li>
           <li className="links-items">
-            <a className="nav-links" href="projects">Projects</a>
+            <a className="nav-links" href="projects">Mis proyectos</a>
           </li>
           <li className="links-items">
             <a className="nav-links" href="#github">Github</a>
