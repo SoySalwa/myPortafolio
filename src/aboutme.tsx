@@ -1,6 +1,4 @@
-import React from "react"
 import "./aboutme.css";
-import Skills from "./skills";
 
 function AboutMe() {
   return <>
