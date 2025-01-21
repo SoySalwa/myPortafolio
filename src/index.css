@@ -104,3 +104,9 @@ h1 {
     background-color: #f9f9f9;
   }
 }
+
+@media (max-width: 768px) {
+  .section-profile {
+    padding: 3.5em;
+  }
+}
