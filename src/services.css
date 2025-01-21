@@ -28,8 +28,8 @@
 
 .services-description {
   padding-left: 1.4em;
-  text-align: justify;
-  width: 40%;
+  text-align: left;
+  width: 52%;
   font-size: 1.1em;
   line-height: 1.5;
   color: #fff;
@@ -105,5 +105,8 @@
 @media (max-width: 768px) {
   .services-description {
     width: 100%;
+  }
+  .services-grid {
+    padding: 1.5em;
   }
 }

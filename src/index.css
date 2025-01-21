@@ -109,4 +109,10 @@ h1 {
   .section-profile {
     padding: 3.5em;
   }
+  .services-section {
+    padding: 0;
+  }
+  .projects-section {
+    padding: 0;
+  }
 }
