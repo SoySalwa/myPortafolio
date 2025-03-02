@@ -4,7 +4,6 @@ import Services from "./services.tsx";
 import "./services.css";
 import AboutMe from './aboutme.tsx';
 import MyProjects from "./myprojects.tsx";
-import Furina from "/Furina.png";
 
 function Index() {
   return (
