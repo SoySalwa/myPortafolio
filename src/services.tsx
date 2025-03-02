@@ -2,7 +2,7 @@ import "./services.css";
 
 function Services() {
   return (
-    <div className="services">
+    <div className="services" id={"services"}>
       <h1>Servicios</h1>
       <p className="services-description">
         Ofrezco servicios de diferentes categorías, no es ningún problema para nosotros
@@ -13,8 +13,8 @@ function Services() {
         <div className="service-item">
           <div className="image-container">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzFFOflX_gJGbZCT-wljwseKxXGokYHxX3Kg&" alt="UX Research" />
-            <div className="text-overlay">
-              <h3>Desktop Development</h3>
+            <div className="dkt-text-overlay">
+              <h3>Desktop Developer</h3>
               <p>Con un alto potencial para mejorar y ver más allá del desarrollo de escritorio, especializado con C++ para llevarlo a cabo.</p>
             </div>
           </div>
@@ -23,20 +23,20 @@ function Services() {
           <div className="image-container">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzFFOflX_gJGbZCT-wljwseKxXGokYHxX3Kg&" alt="BackEnd Development" />
             <div className="text-overlay">
-              <h3>BackEnd Development</h3>
-              <p>We build responsive and scalable web applications tailored to your needs.</p>
+              <h3>BackEnd Developer</h3>
+              <p>Puedo crear proyectos BackEnd con NodeJS y TS, también puedo usar estas tecnologías para Discord.</p>
             </div>
           </div>
         </div>
-        <div className="service-item">
+        { /*<div className="service-item">
           <div className="image-container">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzFFOflX_gJGbZCT-wljwseKxXGokYHxX3Kg&" alt="App Design" />
             <div className="text-overlay">
-              <h3>App Design</h3>
-              <p>Our designs ensure high precision and usability across all devices.</p>
+              <h3>Mobile Developer</h3>
+              <p>Puedo crear sitios webs con ReactJS y TS.</p>
             </div>
           </div>
-        </div>
+        </div> 
         <div className="service-item">
           <div className="image-container">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzFFOflX_gJGbZCT-wljwseKxXGokYHxX3Kg&" alt="Web Design" />
@@ -45,7 +45,7 @@ function Services() {
               <p>Puedo crear diseños visuales con Figma y funcionales.</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
