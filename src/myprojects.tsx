@@ -45,7 +45,7 @@ function MyProjects() {
             <img src={Calculator} alt="Calculator" />
             <div id="cl-text-overlay">
               <a href="https://github.com/soysalwa/calculator" target="_blank"><h3>Calculator</h3></a>
-              <p>Es una calculadora creada en Java. Fue un proyecto de la universidad, pero que me digne a continuar.</p>
+              <p>Fue una calculadora creada en Java, su existencia empezó gracias a la universidad que me llevó a usar Java.</p>
             </div>
           </div>
         </div>
